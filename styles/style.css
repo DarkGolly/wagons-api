@@ -1,0 +1,11 @@
+svg {
+  width: 100px;
+  height: 100px;
+}
+path:hover {
+  fill: green;
+}
+body {
+  text-align: center;
+  padding: 15px;
+}
