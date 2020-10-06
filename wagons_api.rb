@@ -15,7 +15,7 @@ end
 
 wg = MicrourbRest.new.wagons(119) #это хеш который содержит два элемента один из которых хеш и содержит в себе массив в котором хеш, и один из элементов
                                   #тоже хеш и этот хеш является хешом состояния вагонов
-fileHtml = File.new("fred.html", "w+") #генерирует вьюху
+fileHtml = File.new("index.html", "w+") #генерирует вьюху
 fileHtml.puts "<HTML><BODY>" # генерирует то что в ковычках
 
 wg["data"].each do |station_id, stations|# перебераем хеш элемента "data"
